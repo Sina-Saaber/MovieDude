@@ -38,10 +38,10 @@ pip install -r requirements.txt
 - <strong>Main Engine Processes</strong> >>><br>
   Performs similarity analysis and recommendation generation based on user preferences and the database contents.
 
-    <ol type="1">
+  <ol type="1">
+    <li>Apply selected options #1 (filter out watched movies)</li>
     <li>Pre-processing validation check</li>
     <li>Multi-binary encoding</li>
-    <li>Apply selected options #1 (filter out watched movies)</li>
     <li>Execute engine process</li>
     <li>Apply selected options #2 (filter for high-rated movies)</li>
     <li>Return final result as a list (array)</li>
